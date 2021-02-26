@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Context from "../Context/Context";
 
-export default class Confirmations extends Component {
+export default class Confirmation extends Component {
   static contextType = Context;
 
   timeout = 0;
